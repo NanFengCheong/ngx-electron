@@ -8,7 +8,10 @@ sudo: required
 notifications:
   email: false
 node_js:
-  - "10"
+  - "stable"
+cache:
+  directories:
+    - "node_modules"
 before_install:
   - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
 after_success:
@@ -18,7 +21,10 @@ after_success:
   - cd dist/ngx-electron/
   - npm install
   - npm run semantic-release
-  - npm run publish
+deploy:
+  provider: npm
+  email: "cheongnanfeng@gmail.com"
+  api_key: $NPM_TOKEN
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
