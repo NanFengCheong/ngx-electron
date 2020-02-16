@@ -27,6 +27,6 @@
     "semantic-release": "^17.0.3"
   },
   "scripts": {
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release"
   }
 }

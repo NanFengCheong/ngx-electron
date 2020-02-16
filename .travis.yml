@@ -18,6 +18,7 @@ after_success:
   - cd dist/ngx-electron/
   - npm install
   - npm run semantic-release
+  - npm run publish
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
