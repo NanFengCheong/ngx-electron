@@ -14,9 +14,7 @@
     "lint": "ng lint",
     "start": "ng serve",
     "test": "ng test",
-    "publish": "npm run build && npm publish ./dist/ngx-electron",
-    "printenv": "printenv",
-    "semantic-release": "semantic-release"
+    "publish": "npm run build && npm publish ./dist/ngx-electron"
   },
   "keywords": [
     "angular",
@@ -71,6 +69,5 @@
     "ts-node": "^8.3.0",
     "tslint": "^6.0.0",
     "typescript": "~3.7.5",
-    "semantic-release": "17.0.3"
   }
 }
