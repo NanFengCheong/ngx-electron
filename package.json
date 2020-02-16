@@ -1,20 +1,22 @@
 {
-  "name": "ngx-electron",
+  "name": "cnf-ngx-electron",
   "description": "A wrapper for Electron Renderer APIs. Finally easy to use in Angular",
   "version": "0.0.0-development",
-  "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/ThorstenHans/ngx-electron"
+    "url": "https://github.com/NanFengCheong/ngx-electron"
   },
-  "author": "Thorsten Hans <thorsten.hans@gmail.com>",
+  "author": "NanFengCheong <cheongnanfeng@gmail.com>",
   "license": "MIT",
   "scripts": {
     "build": "ng build",
     "commit": "git-cz",
     "lint": "ng lint",
     "start": "ng serve",
-    "test": "ng test"
+    "test": "ng test",
+    "publish": "npm run build && npm publish ./dist/ngx-electron",
+    "printenv": "printenv",
+    "semantic-release": "semantic-release"
   },
   "keywords": [
     "angular",
@@ -30,7 +32,7 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/ThorstenHans/ngx-electron/issues"
+    "url": "https://github.com/NanFengCheong/ngx-electron/issues"
   },
   "dependencies": {
     "@angular/common": "^9.0.1",
@@ -68,6 +70,7 @@
     "ng-packagr": "^9.0.0",
     "ts-node": "^8.3.0",
     "tslint": "^6.0.0",
-    "typescript": "~3.7.5"
+    "typescript": "~3.7.5",
+    "semantic-release": "17.0.3"
   }
 }

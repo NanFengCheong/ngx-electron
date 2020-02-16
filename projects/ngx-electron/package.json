@@ -1,7 +1,8 @@
 {
-  "name": "ngx-electron",
+  "name": "cnf-ngx-electron",
   "description": "An Angular wrapper for Electron's Renderer APIs",
-  "author": "Thorsten Hans",
+  "version": "0.0.0-development",
+  "author": "NanFengCheong <cheongnanfeng@gmail.com>",
   "keywords": [
     "angular",
     "ng",
@@ -9,23 +10,23 @@
     "electron-js"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/ThorstenHans/ngx-electron",
+  "homepage": "https://github.com/NanFengCheong/ngx-electron",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ThorstenHans/ngx-electron.git"
+    "url": "https://github.com/NanFengCheong/ngx-electron.git"
   },
   "bugs": {
-    "url": "https://github.com/ThorstenHans/ngx-electron/issues"
+    "url": "https://github.com/NanFengCheong/ngx-electron/issues"
   },
   "peerDependencies": {
-    "@angular/core": ">=8.0.0",
-    "rxjs": ">=6.3.0",
-    "electron": ">=6.0.10"
+    "@angular/core": ">=9.0.1",
+    "rxjs": ">=6.5.4",
+    "electron": ">=8.0.1"
   },
   "devDependencies": {
-    "semantic-release": "8.2.3"
+    "semantic-release": "^17.0.3"
   },
   "scripts": {
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release"
   }
 }

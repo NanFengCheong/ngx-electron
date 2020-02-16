@@ -1,9 +1,9 @@
 {
-    "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
-    "dest": "../../dist/ngx-electron",
-    "deleteDestPath": false,
-    "keepLifecycleScripts": true,
-    "lib": {
-      "entryFile": "src/public_api.ts"
-    }
+  "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../dist/ngx-electron",
+  "deleteDestPath": true,
+  "keepLifecycleScripts": true,
+  "lib": {
+    "entryFile": "src/public_api.ts"
   }
+}
