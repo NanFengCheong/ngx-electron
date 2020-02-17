@@ -1,7 +1,7 @@
 {
   "name": "cnf-ngx-electron",
   "description": "An Angular wrapper for Electron's Renderer APIs",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "author": "NanFengCheong <cheongnanfeng@gmail.com>",
   "keywords": [
     "angular",
@@ -13,7 +13,7 @@
   "homepage": "https://github.com/NanFengCheong/ngx-electron",
   "repository": {
     "type": "git",
-    "url": "https://github.com/NanFengCheong/ngx-electron.git"
+    "url": "https://github.com/NanFengCheong/ngx-electron"
   },
   "bugs": {
     "url": "https://github.com/NanFengCheong/ngx-electron/issues"
@@ -23,10 +23,5 @@
     "rxjs": ">=6.5.4",
     "electron": ">=8.0.1"
   },
-  "devDependencies": {
-    "semantic-release": "^17.0.3"
-  },
-  "scripts": {
-    "semantic-release": "semantic-release"
-  }
+  "devDependencies": {}
 }
